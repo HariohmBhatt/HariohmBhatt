@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title description">
-  <title id="title">Research into working systems</title>
+  <title id="title">ML systems engineering</title>
   <desc id="description">Data pipelines · Reproducibility · Inference.</desc>
   <style>
     @media (max-width: 600px) {
@@ -26,7 +26,7 @@
     </g>
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
       <text class="theme-number" x="40" y="51" fill="#ffb178" font-size="21" letter-spacing="3">03 / FOCUS</text>
-      <text class="theme-title" x="38" y="116" fill="#f4f7fc" font-size="43" font-weight="700" letter-spacing="-1">Research into working systems</text>
+      <text class="theme-title" x="38" y="116" fill="#f4f7fc" font-size="43" font-weight="700" letter-spacing="-1">ML systems engineering</text>
       <text class="theme-description" x="40" y="169" fill="#b5c5db" font-size="26">Data pipelines · Reproducibility · Inference</text>
     </g>
   </g>

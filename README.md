@@ -16,9 +16,10 @@
 </p>
 
 <p>
-  <img src="assets/systems-banner.svg" alt="Research into working systems — Data pipelines, reproducible experiments, and inference." width="100%" />
+  <img src="assets/systems-banner.svg" alt="ML systems engineering — Data pipelines, reproducible experiments, and inference." width="100%" />
 </p>
 
 <p align="center">
-  Python · PyTorch · OpenCV · FastAPI · Docker
+  Python · PyTorch · OpenCV<br>
+  FastAPI · Docker
 </p>
