@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="title description">
+  <title id="title">Learning with limited labels</title>
+  <desc id="description">Semi-supervision · Uncertainty · Calibration.</desc>
+  <style>
+    @media (max-width: 600px) {
+      .theme-title { font-size: 50px; }
+      .theme-description { display: none; }
+      .theme-number { font-size: 27px; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x2="1" y2=".5"><stop stop-color="#111b2e"/><stop offset="1" stop-color="#0a111e"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#c2a5ff" stop-opacity=".12"/><stop offset="1" stop-color="#c2a5ff" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect x=".5" y=".5" width="1199" height="219" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="220" fill="url(#bg)"/>
+    <ellipse cx="1000" cy="110" rx="235" ry="200" fill="url(#glow)"/>
+    <path d="M0 32V188" stroke="#c2a5ff" stroke-width="6"/>
+    <path d="M832 25V195" stroke="#c2a5ff" stroke-opacity=".12"/>
+    <g transform="translate(1008 110)" color="#c2a5ff" fill="none">
+      <path d="M-66-40L-15-58 55-35 72 28 5 59-68 31ZM-66-40L5 59 55-35-68 31-15-58 72 28-66-40" stroke="currentColor" stroke-opacity=".25" stroke-width="2"/>
+      <g fill="#111b2e" stroke="currentColor" stroke-width="2"><circle cx="-66" cy="-40" r="8"/><circle cx="55" cy="-35" r="8"/><circle cx="5" cy="59" r="8"/></g>
+      <g fill="currentColor"><circle cx="-15" cy="-58" r="7"/><circle cx="72" cy="28" r="7"/><circle cx="-68" cy="31" r="7"/></g>
+      <circle r="22" fill="currentColor" fill-opacity=".08" stroke="currentColor" stroke-dasharray="3 5"/>
+      <circle r="5" fill="currentColor"/>
+    </g>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+      <text class="theme-number" x="40" y="51" fill="#c2a5ff" font-size="21" letter-spacing="3">02 / FOCUS</text>
+      <text class="theme-title" x="38" y="116" fill="#f4f7fc" font-size="43" font-weight="700" letter-spacing="-1">Learning with limited labels</text>
+      <text class="theme-description" x="40" y="169" fill="#b5c5db" font-size="26">Semi-supervision · Uncertainty · Calibration</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="219" rx="18" fill="none" stroke="#6b83a5" stroke-opacity=".2"/>
+</svg>
