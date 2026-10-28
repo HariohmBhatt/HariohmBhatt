@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title description">
+  <title id="title">Focus areas</title>
+  <desc id="description">Medical and scientific vision: segmentation, structure, measurement. Learning with limited labels: semi-supervision, uncertainty, calibration. ML systems engineering: data pipelines, reproducibility, inference.</desc>
+  <style>
+    @media (max-width: 600px) {
+      .title { font-size: 56px; transform: translateY(20px); }
+      .dot { transform: translateY(16px); }
+      .desc { display: none; }
+    }
+  </style>
+  <rect x=".5" y=".5" width="1199" height="379" rx="12" fill="#161b22" stroke="#30363d"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif">
+  <circle class="dot" cx="58" cy="74" r="5" fill="#3fb9a9"/>
+  <text class="title" x="84" y="86" fill="#e6edf3" font-size="34" font-weight="600">Medical &amp; scientific vision</text>
+  <text class="desc" x="84" y="120" fill="#9198a1" font-size="24">Segmentation · Structure · Measurement</text>
+  <path d="M48 140H1152" stroke="#30363d"/>
+  <circle class="dot" cx="58" cy="174" r="5" fill="#3fb9a9"/>
+  <text class="title" x="84" y="186" fill="#e6edf3" font-size="34" font-weight="600">Learning with limited labels</text>
+  <text class="desc" x="84" y="220" fill="#9198a1" font-size="24">Semi-supervision · Uncertainty · Calibration</text>
+  <path d="M48 240H1152" stroke="#30363d"/>
+  <circle class="dot" cx="58" cy="274" r="5" fill="#3fb9a9"/>
+  <text class="title" x="84" y="286" fill="#e6edf3" font-size="34" font-weight="600">ML systems engineering</text>
+  <text class="desc" x="84" y="320" fill="#9198a1" font-size="24">Data pipelines · Reproducibility · Inference</text>
+  </g>
+</svg>
