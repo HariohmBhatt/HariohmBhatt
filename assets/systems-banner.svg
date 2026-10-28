@@ -2,31 +2,41 @@
   <title id="title">ML systems engineering</title>
   <desc id="description">Data pipelines · Reproducibility · Inference.</desc>
   <style>
+    .flow { stroke-dasharray: 4 8; animation: flow 1.4s linear infinite; }
+    @keyframes flow { to { stroke-dashoffset: -12; } }
     @media (max-width: 600px) {
-      .theme-title { font-size: 50px; }
+      .theme-title { font-size: 52px; transform: translateY(40px); }
+      .theme-number { font-size: 28px; transform: translateY(22px); }
       .theme-description { display: none; }
-      .theme-number { font-size: 27px; }
     }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
   <defs>
     <linearGradient id="bg" x2="1" y2=".5"><stop stop-color="#111b2e"/><stop offset="1" stop-color="#0a111e"/></linearGradient>
-    <radialGradient id="glow"><stop stop-color="#ffb178" stop-opacity=".12"/><stop offset="1" stop-color="#ffb178" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow"><stop stop-color="#ffb178" stop-opacity=".14"/><stop offset="1" stop-color="#ffb178" stop-opacity="0"/></radialGradient>
+    <linearGradient id="accent" x2="0" y2="1"><stop stop-color="#ffb178" stop-opacity="0"/><stop offset=".5" stop-color="#ffb178"/><stop offset="1" stop-color="#ffb178" stop-opacity="0"/></linearGradient>
     <clipPath id="frame"><rect x=".5" y=".5" width="1199" height="219" rx="18"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
     <rect width="1200" height="220" fill="url(#bg)"/>
-    <ellipse cx="1000" cy="110" rx="235" ry="200" fill="url(#glow)"/>
+    <ellipse cx="1016" cy="110" rx="250" ry="200" fill="url(#glow)"/>
     <path d="M0 32V188" stroke="#ffb178" stroke-width="6"/>
-    <path d="M832 25V195" stroke="#ffb178" stroke-opacity=".12"/>
-    <g transform="translate(1008 110)" color="#ffb178" fill="none">
-      <path d="M-54 0H54M0-51V51" stroke="currentColor" stroke-opacity=".35" stroke-width="2"/>
-      <g fill="#111b2e" stroke="currentColor" stroke-width="2"><rect x="-89" y="-25" width="50" height="50" rx="10"/><rect x="-25" y="-76" width="50" height="50" rx="10"/><rect x="39" y="-25" width="50" height="50" rx="10"/><rect x="-25" y="26" width="50" height="50" rx="10"/></g>
-      <path d="M-72-3L-65 5-55-9M-9-51H9M64-9V9M55 0H73M-9 51H9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle r="5" fill="currentColor"/>
+    <path d="M832 25V195" stroke="url(#accent)" stroke-opacity=".3"/>
+    <g transform="translate(1016 110)" color="#ffb178" fill="none">
+      <path class="flow" d="M-49 0H-28M28 0H49" stroke="currentColor" stroke-width="2"/>
+      <path class="flow" d="M75 30C75 78-75 78-75 36" stroke="currentColor" stroke-opacity=".45" stroke-width="1.5"/>
+      <path d="M-81 44L-75 34-69 44" stroke="currentColor" stroke-opacity=".6" stroke-width="1.5" stroke-linejoin="round"/>
+      <g fill="#101a2c" stroke="currentColor" stroke-width="2">
+        <path d="M-99-26V26A24 8 0 0 0-51 26V-26"/>
+        <ellipse cx="-75" cy="-26" rx="24" ry="8"/>
+        <rect x="-26" y="-26" width="52" height="52" rx="10"/>
+        <circle cx="75" r="24"/>
+      </g>
+      <path d="M-99 0A24 8 0 0 0-51 0M-12-11V11M0-15V15M12-11V11M65 1L72 8 86-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
       <text class="theme-number" x="40" y="51" fill="#ffb178" font-size="21" letter-spacing="3">03 / FOCUS</text>
-      <text class="theme-title" x="38" y="116" fill="#f4f7fc" font-size="43" font-weight="700" letter-spacing="-1">ML systems engineering</text>
+      <text class="theme-title" x="38" y="116" fill="#f4f7fc" font-size="44" font-weight="700" letter-spacing="-1">ML systems engineering</text>
       <text class="theme-description" x="40" y="169" fill="#b5c5db" font-size="26">Data pipelines · Reproducibility · Inference</text>
     </g>
   </g>

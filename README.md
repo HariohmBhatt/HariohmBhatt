@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-banner.svg" alt="Hariohm Bhatt — Computer vision and scientific machine learning. Better experiments. Useful systems." width="100%" />
+  <img src="assets/profile-banner.svg" alt="Hariohm Bhatt — Computer vision and scientific machine learning." width="100%" />
 </p>
 
 <p align="center">

@@ -1,6 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title description">
   <title id="title">Hariohm Bhatt</title>
-  <desc id="description">Computer vision and scientific machine learning. Better experiments. Useful systems.</desc>
+  <desc id="description">Computer vision and scientific machine learning.</desc>
+  <style>
+    .orbit { transform-box: fill-box; transform-origin: center; animation: orbit 90s linear infinite; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 3.2s ease-in-out infinite; }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes pulse { 50% { transform: scale(1.6); opacity: .55; } }
+    @media (max-width: 600px) {
+      .eyebrow { font-size: 32px; }
+      .tagline { font-size: 44px; }
+    }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
   <defs>
     <linearGradient id="bg" x2="1" y2="1">
       <stop stop-color="#101a30"/>
@@ -24,27 +35,28 @@
     <rect width="1200" height="440" fill="url(#grid)"/>
     <ellipse cx="1020" cy="210" rx="360" ry="340" fill="url(#glow)"/>
     <path d="M0 438H1200" stroke="url(#orbit)" stroke-width="4"/>
-    <g fill="none" transform="translate(985 214)">
+    <g fill="none" transform="translate(985 220)">
       <circle r="178" stroke="#80a8c8" stroke-opacity=".13" stroke-dasharray="3 10"/>
       <circle r="144" stroke="#80a8c8" stroke-opacity=".17"/>
-      <ellipse rx="178" ry="66" transform="rotate(-40)" stroke="url(#orbit)" stroke-width="2"/>
-      <ellipse rx="178" ry="66" transform="rotate(40)" stroke="url(#orbit)" stroke-opacity=".4"/>
+      <g class="orbit">
+        <ellipse rx="178" ry="66" transform="rotate(-40)" stroke="url(#orbit)" stroke-width="2"/>
+        <ellipse rx="178" ry="66" transform="rotate(40)" stroke="url(#orbit)" stroke-opacity=".4"/>
+        <circle cx="136" cy="-100" r="7" fill="#ffb178"/>
+        <circle cx="-136" cy="100" r="5" fill="#5de4dd"/>
+      </g>
       <path d="M-94 16C-109-27-57-77-7-65S99-42 91 8S35 71-13 62S-78 61-94 16Z" fill="#102f3c" stroke="#5de4dd" stroke-width="2"/>
       <path d="M-72 12C-83-18-47-54-9-45S73-31 67 6S27 52-8 43S-61 45-72 12Z" stroke="#5de4dd" stroke-opacity=".65" stroke-width="2"/>
       <path d="M-48 8C-55-12-31-36-6-30S49-21 45 4S18 35-5 29S-41 30-48 8Z" stroke="#5de4dd" stroke-opacity=".45" stroke-width="2"/>
       <path d="M-24 4C-28-6-15-18-3-15S24-10 22 2S9 17-3 14S-20 15-24 4Z" stroke="#5de4dd" stroke-width="2"/>
-      <circle r="5" fill="#e5ffff"/>
+      <circle class="pulse" r="5" fill="#e5ffff"/>
       <path d="M-125-88V-113H-100M100-113H125V-88M-125 88V113H-100M100 113H125V88" stroke="#8396b5" stroke-width="2"/>
-      <circle cx="136" cy="-100" r="7" fill="#ffb178"/>
-      <circle cx="-146" cy="98" r="5" fill="#5de4dd"/>
     </g>
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
-      <rect x="56" y="52" width="34" height="5" rx="2.5" fill="#ffb178"/>
-      <text x="106" y="64" fill="#b9c8df" font-size="22" letter-spacing="4">VISION / LEARNING / SYSTEMS</text>
-      <text x="52" y="180" fill="#f4f7fc" font-size="100" font-weight="750" letter-spacing="-5">Hariohm</text>
-      <text x="52" y="278" fill="#f4f7fc" font-size="100" font-weight="750" letter-spacing="-5">Bhatt<tspan fill="#ffb178">.</tspan></text>
-      <text x="58" y="332" fill="#a9bfd7" font-size="27">Computer vision · Scientific ML</text>
-      <text x="58" y="391" fill="#5de4dd" font-size="26">Better experiments. Useful systems.</text>
+      <rect x="56" y="78" width="34" height="5" rx="2.5" fill="#ffb178"/>
+      <text class="eyebrow" x="106" y="90" fill="#b9c8df" font-size="22" letter-spacing="4">VISION / LEARNING / SYSTEMS</text>
+      <text x="50" y="212" fill="#f4f7fc" font-size="108" font-weight="750" letter-spacing="-5">Hariohm</text>
+      <text x="50" y="316" fill="#f4f7fc" font-size="108" font-weight="750" letter-spacing="-5">Bhatt<tspan fill="#ffb178">.</tspan></text>
+      <text class="tagline" x="56" y="374" fill="#5de4dd" font-size="30">Computer vision · Scientific ML</text>
     </g>
   </g>
 </svg>
