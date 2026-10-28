@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/hariohm-bhatt-519552237/">LinkedIn ↗</a> &nbsp; · &nbsp;
-  <a href="mailto:bhatthariohm2004@gmail.com">Email ↗</a> &nbsp; · &nbsp;
-  <a href="https://github.com/HariohmBhatt?tab=repositories">Repositories ↗</a>
+  <a href="https://www.linkedin.com/in/hariohm-bhatt-519552237/">LinkedIn&nbsp;↗</a> &nbsp; · &nbsp;
+  <a href="mailto:bhatthariohm2004@gmail.com">Email&nbsp;↗</a> &nbsp; · &nbsp;
+  <a href="https://github.com/HariohmBhatt?tab=repositories">Repositories&nbsp;↗</a>
 </p>
 
 ### Selected work
